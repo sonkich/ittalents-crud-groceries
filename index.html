@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css" media="all" />
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="assets/javascript/grocieries.js"></script>
+</head>
+<body>
+	<div id="login">
+		<div id="login-form">
+			<label for="acc">Name</label>
+			<input type="text" name="acc" id="acc" />
+			<label for="pass">Password</label>
+			<input type="password" name="pass" id="pass" />
+			<p id='eror'>Wrong user name or password</p>
+			<button id='btn-login'>Login</button>
+		</div>
+	</div>
+
+	<div id="groc">
+		<h1>Grocieries</h1>
+		<button id="btn-add">+</button>
+		<table id="groc-table">
+			<thead>
+
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th>Quantity</th>
+					<th>Price</th>
+					<th>&nbsp;</th>
+				</tr>
+
+			</thead>
+			<tbody>
+
+			</tbody>
+
+		</table>
+	</div>
+
+	<div id="adding-form">
+
+		<div>
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" />
+		</div>
+		<div>
+			<label for="quantity">Quantity</label>
+			<input type="text" name="quantity" id="quantity" />
+		</div>
+		<div>
+			<label for="price">Price</label>
+			<input type="text" name="price" id="price" />
+		</div>
+
+		<button id="btn-insert">Add</button>
+
+	</div>
+
+	<div id="change-form">
+		<input type="text" name="index" id="index">
+		<div>
+			<label for="name">Name</label>
+			<input type="text" name="name" id="nameC" />
+		</div>
+		<div>
+			<label for="quantity">Quantity</label>
+			<input type="text" name="quantity" id="quantityC" />
+		</div>
+		<div>
+			<label for="price">Price</label>
+			<input type="text" name="price" id="priceC" />
+		</div>
+
+		<button id="btn-change">Change</button>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	list-style: none;
+}
+
+#login {
+
+
+	width: 300px;
+	height: 300px;
+	padding: 30px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+#eror {
+	display: none;
+	color: red;
+	margin-bottom: 10px;
+}
+
+ label {
+	display: block;
+	padding-right: 5px;
+}
+
+input {
+	margin: 10px;
+}
+
+
+button {
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	clear: both;
+	margin-top: 50px;
+}
+
+table span {
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+table button {
+	display: inline;
+}
+
+#groc {
+	display: none;
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#groc h1 {
+	font-size: 2em;
+}
+
+#btn-add {
+	float: right;
+}
+
+
+td ,th{
+	border: 1px solid black;
+}
+
+#adding-form  , #change-form  {
+	display: none;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#change-form #index {
+	display: none;
+}
